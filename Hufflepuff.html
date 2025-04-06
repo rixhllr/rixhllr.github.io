@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: url(hpbg.jpg);
+            background-attachment: fixed; 
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .header {
+            color:white;
+            padding: 60px;
+            text-align: center;
+            background-image: url(hgh.jpg);
+            background-attachment: fixed; 
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .div {
+            background-color:#333;
+            overflow: hidden;
+        }
+
+        .div a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition-duration:.5s;
+        }
+
+        .div a:hover {
+          color:gray;
+        }
+
+
+        .divv {
+            display: flex;
+            margin: 0 10px;
+        }
+
+        .divv1 {
+            flex: 30%;
+            padding: 20px;
+        }
+
+        .gal {
+            display:block;
+            grid-template-columns: repeat(4fr);
+            gap: 20px;
+            width:95%;
+            margin:auto;
+            margin-top:82px;
+            margin-left:20px;
+            padding:20px;
+            
+        }
+
+        .img {
+            background-color: #aaa;
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+        }
+
+        .img1 {
+          display:inline-flex;
+          width:300px;
+          height:300px;
+          transition-duration: .5s;
+          border-radius: 10px;
+          object-fit:cover;
+        }
+
+        .img1:hover {
+          -ms-transform: scale(1.5);
+          -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+        }
+
+        h1 {
+          text-align: center;
+        }
+
+        .gal img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+
+        .divv1 img {
+          border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>Welcome to Hogwarts</h1>
+    <p>A website created by me.</p>
+</div>
+
+<div class="div">
+    <a href="crt.html">Home</a>
+    <a href="Gryffindor.html">Gryffindor</a>
+    <a href="Slytherin.html">Slytherin</a>
+    <a href="Ravenclaw.html">Ravenclaw</a>
+    <a href="Hufflepuff.html">Hufflepuff</a>
+</div>
+
+<div class="divv">
+    <div class="divv1">
+        <h2 style="color:white;">Hufflepuff</h2>
+        <div><img src="hh.jpg" class="img"></div>
+        <p style="font-size:20px; text-align: justify; color:white;">The wise and intelligent house. Led by Rowena Ravenclaw.</p>
+        <p style="font-size:20px; text-align: justify; color:white;">You might belong in Hufflepuff, 
+            Where they are just and loyal, Those patient Hufflepuff are true and 
+            unafraid of toil.
+        </p>
+      
+    </div>
+
+    <div class="gal">
+        <div class="img1"><img src="hp0.webp" alt="gal img1"></div>
+        <div class="img1"><img src="hp1.jpg" alt="gal img1"></div>
+        <div class="img1"><img src="hp4.jpg" alt="gal img1"></div>
+        <div class="img1"><img src="hp3.jpg" alt="gal img1"></div>
+        <div class="img1"><img src="hp5.webp" alt="gal img1"></div>
+        <div class="img1"><img src="hp6.webp" alt="gal img1"></div>
+    </div>
+</div>
+
+<div class="footer" style="background-color: #333; color:white; text-align: center; height:20px; padding:15px;">
+Hogwarts School of Witchcraft and Wizardry
+</div>
+
+</body>
+</html>
+
